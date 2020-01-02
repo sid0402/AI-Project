@@ -17,6 +17,6 @@ print(df.head(10))
 #finding the 10 weakest earthquakes
 print()
 print("the ten weakest earthquakes are:")
-df = df[df['type']=='earthquake']
+df = df[df['type']=='earthquake'] #not necessary line 
 df = df.sort_values('mag',ascending = True)
 print(df.head(10))
