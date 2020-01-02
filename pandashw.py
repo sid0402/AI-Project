@@ -20,3 +20,5 @@ print("the ten weakest earthquakes are:")
 df = df[df['type']=='earthquake'] #not necessary line 
 df = df.sort_values('mag',ascending = True)
 print(df.head(10))
+
+#instead of assigning different things to the same variable, make different variables. use df as the parent variable
